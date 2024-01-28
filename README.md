@@ -1,38 +1,48 @@
 # Project Repository Overview
 # 1) ACF and PACF Understanding
 
-Description: This notebook explores the concepts of Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) in time series analysis. It likely includes visualizations and explanations of how ACF and PACF are used to identify patterns and relationships in time series data.
-File: 1) ACF_PACF_understanding.ipynb
+**Autocorrelation Function (ACF):** The ACF is primarily used to identify the order of the moving average (MA) component in models like the ARIMA (Autoregressive Integrated Moving Average) model.
+By analyzing the ACF plot, analysts can identify the number of significant lags at which autocorrelation is present, which helps determine the order of the MA component.
 
-# 2) Augmented Dickey-Fuller Test
+**Partial Autocorrelation Function (PACF):** the PACF is primarily used to identify the order of the autoregressive (AR) component in models like the ARIMA model.
+By analyzing the PACF plot, analysts can identify the number of significant lags at which autocorrelation is present, which helps determine the order of the AR component.
 
-Description: This notebook demonstrates the Augmented Dickey-Fuller Test, which is a statistical test used to determine whether a unit root is present in time series data. It helps in assessing the stationarity of a time series.
-File: 2) Augmented_Dickey_Fuller_Test.ipynb
+# 2) Augmented Dickey-Fuller Test(ADF)
+
+The Augmented Dickey-Fuller (ADF) test is utilized in time series analysis to determine whether a given time series dataset is **stationary or non-stationary.** 
+If the calculated test statistic is less than the critical value, the null hypothesis of a unit root is rejected, and the time series is considered stationary else rejected.
+
 
 # 3) AR Model
 
-Description: This notebook implements an Autoregressive (AR) model, a type of time series model where the current value of a variable is regressed on its own past values. It's useful for forecasting based on the linear relationship between the variable and its lagged values.
-File: 3) AR_model.ipynb
+An Autoregressive (AR) model is a type of time series model used to forecast future values based on past observations. In an AR model, the value of the time series at any given point is modeled as a linear combination of its past values, also known as lagged values, along with an error term. 
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/0e72fc2b-b316-4061-bf0e-ee3a1e8e952e)
 
 # 4) MA Model
 
-Description: This notebook implements a Moving Average (MA) model, which is another type of time series model where the current value of a variable is a linear combination of past prediction errors. It's useful for capturing short-term trends and noise in the data.
-File: 4) MA_Model.ipynb
+A Moving Average (MA) model is a type of time series model used for forecasting future values based on past observations. Unlike the Autoregressive (AR) model which regresses the current value of the time series on its own past values, the MA model regresses the current value on past **forecast errors**, also known as the residual errors.
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/8eb58af6-3619-4c70-b9cc-f20e7145cefc)
+
+
+
 
 # 5) ARMA Model
 
 Description: This notebook implements an Autoregressive Moving Average (ARMA) model, which combines both the AR and MA models into a single framework. It's useful for capturing both short-term trends and long-term dependencies in the data.
-File: 5) ARMA_Model.ipynb
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/52c6deef-4d86-4e80-908e-a933005da89e)
+
  
 # 6) ARIMA Model
 
 Description: This notebook implements an Autoregressive Integrated Moving Average (ARIMA) model, which extends the ARMA model by including differencing to make the time series stationary. It's useful for non-stationary data.
-File: 6) ARIMA.ipynb
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/317fcf46-df79-4ac1-8576-fcb6d716d640)
+
 
 # 7) Seasonal ARIMA Model
 
 Description: This notebook implements a Seasonal ARIMA (SARIMA) model, which extends the ARIMA model to handle seasonality in the data. It's useful for time series data with periodic patterns.
-File: 7) SARIMA_Model.ipynb
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/9055f326-79cc-499c-bba2-403eaa6f6951)
+
 
 # 8) Vector Autoregression Model
 
