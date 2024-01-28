@@ -51,7 +51,17 @@ I use the **Akaike Information Criterion (AIC)** to compare different time serie
 
 # 8) Vector Autoregression Model
 
+->Employed the Vector Autoregression (VAR) model to analyze the ice cream and heater dataset.
+->VAR is effective for multiple time series variables, capturing dynamic interactions and enabling accurate forecasts.
+->Used VAR to understand interdependencies between ice cream sales and heater usage.
+->Provided insights into their relationship over time.
+After preprocessing we get this:
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/64ea2bf7-9111-4599-82e1-5ac08823446a)
 
+ This the the equation which show the relation between ice cream and heater:
+ $$
+\hat{h}_t = - 0.41h_{t-1} - 0.19h_{t-2} + 0.2i_{t-13}
+$$
 
 # 9) Indian Stock Forecasting with LSTMs
 Description: This notebook utilizes Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN), for forecasting Indian stock market data. LSTMs are powerful models for capturing long-term dependencies in sequential data.
