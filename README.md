@@ -28,28 +28,30 @@ A Moving Average (MA) model is a type of time series model used for forecasting 
 
 # 5) ARMA Model
 
-Description: This notebook implements an Autoregressive Moving Average (ARMA) model, which combines both the AR and MA models into a single framework. It's useful for capturing both short-term trends and long-term dependencies in the data.
+The ARMA (Autoregressive Moving Average)model combines two main components: the autoregressive (AR) component, which models the relationship between the current value of the time series and its past values, and the moving average (MA) component, which models the relationship between the current value and past forecast errors.
 ![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/3e695877-c70c-4ddb-996e-9bbce9e42564)
 
  
 # 6) ARIMA Model
 
-Description: This notebook implements an Autoregressive Integrated Moving Average (ARIMA) model, which extends the ARMA model by including differencing to make the time series stationary. It's useful for non-stationary data.
+ARIMA models are used to model time series data that exhibit non-stationarity, meaning their statistical properties like mean and variance change over time.
+
 ![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/ccd2cbec-4c46-4ac0-ac9d-e71faabe48bd)
 
 
 
 # 7) Seasonal ARIMA Model
 
-Description: This notebook implements a Seasonal ARIMA (SARIMA) model, which extends the ARIMA model to handle seasonality in the data. It's useful for time series data with periodic patterns.
-![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/cefaf225-4ca4-4449-9846-4d37683fe922)
+SARIMA models are an extension of the ARIMA model specifically designed to handle time series data with seasonal patterns. SARIMA models include additional seasonal components alongside the non-seasonal ARIMA components. SARIMA models consist of seasonal autoregressive (SAR), seasonal integrated (SI), and seasonal moving average (SMA) components, in addition to the non-seasonal ARIMA components. SARIMA models explicitly account for seasonal patterns in the data and are particularly useful for forecasting time series with strong seasonal fluctuations.
 
+I use the **Akaike Information Criterion (AIC)** to compare different time series models and select the one that balances goodness of fit with simplicity. A lower AIC value indicates a better fitting model while penalizing for excessive model complexity, aiding in effective model selection for time series analysis.
+
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/cefaf225-4ca4-4449-9846-4d37683fe922)
 
 
 # 8) Vector Autoregression Model
 
-Description: This notebook implements a Vector Autoregression (VAR) model, a multivariate time series model where each variable is modeled as a linear combination of its lagged values and the lagged values of other variables. It's useful for analyzing and forecasting multiple time series simultaneously.
-File: 8) VAR_Model.ipynb
+
 
 # 9) Indian Stock Forecasting with LSTMs
 Description: This notebook utilizes Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN), for forecasting Indian stock market data. LSTMs are powerful models for capturing long-term dependencies in sequential data.
