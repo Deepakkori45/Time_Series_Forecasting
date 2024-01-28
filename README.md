@@ -29,19 +29,21 @@ A Moving Average (MA) model is a type of time series model used for forecasting 
 # 5) ARMA Model
 
 Description: This notebook implements an Autoregressive Moving Average (ARMA) model, which combines both the AR and MA models into a single framework. It's useful for capturing both short-term trends and long-term dependencies in the data.
-![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/52c6deef-4d86-4e80-908e-a933005da89e)
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/3e695877-c70c-4ddb-996e-9bbce9e42564)
 
  
 # 6) ARIMA Model
 
 Description: This notebook implements an Autoregressive Integrated Moving Average (ARIMA) model, which extends the ARMA model by including differencing to make the time series stationary. It's useful for non-stationary data.
-![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/317fcf46-df79-4ac1-8576-fcb6d716d640)
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/ccd2cbec-4c46-4ac0-ac9d-e71faabe48bd)
+
 
 
 # 7) Seasonal ARIMA Model
 
 Description: This notebook implements a Seasonal ARIMA (SARIMA) model, which extends the ARIMA model to handle seasonality in the data. It's useful for time series data with periodic patterns.
-![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/9055f326-79cc-499c-bba2-403eaa6f6951)
+![image](https://github.com/Deepakkori45/Time_Series_Forecasting/assets/111627339/cefaf225-4ca4-4449-9846-4d37683fe922)
+
 
 
 # 8) Vector Autoregression Model
