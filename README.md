@@ -1,5 +1,5 @@
-**# Project Repository Overview**
-**1) ACF and PACF Understanding**
+# Project Repository Overview
+# 1) ACF and PACF Understanding
 
 Description: This notebook explores the concepts of Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) in time series analysis. It likely includes visualizations and explanations of how ACF and PACF are used to identify patterns and relationships in time series data.
 File: 1) ACF_PACF_understanding.ipynb
