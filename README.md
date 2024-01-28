@@ -4,7 +4,7 @@
 Description: This notebook explores the concepts of Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) in time series analysis. It likely includes visualizations and explanations of how ACF and PACF are used to identify patterns and relationships in time series data.
 File: 1) ACF_PACF_understanding.ipynb
 
-**2) Augmented Dickey-Fuller Test**
+*2) Augmented Dickey-Fuller Test*
 
 Description: This notebook demonstrates the Augmented Dickey-Fuller Test, which is a statistical test used to determine whether a unit root is present in time series data. It helps in assessing the stationarity of a time series.
 File: 2) Augmented_Dickey_Fuller_Test.ipynb
